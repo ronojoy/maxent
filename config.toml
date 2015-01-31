@@ -22,3 +22,4 @@ copyright = "Ronojoy Adhikari"
 	github = "https://github.com/ronojoy"
   google = "http://scholar.google.co.in/citations?user=DnFOEgMAAAAJ&hl=en"
 
+canonifyurls = "true"
