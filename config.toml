@@ -1,0 +1,24 @@
+baseurl = "http://ronojoy.github.io/maxent"
+languageCode = "en-us"
+title = "maxent"
+theme = "hyde"
+copyright = "Ronojoy Adhikari"
+
+[Author]
+	name = "Ronojoy Adhikari"
+
+[Permalinks]
+	blog = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+	series = "series"
+	series-desc = "series-desc"
+
+[params]
+	description = "least biased thoughts"
+	twitter = "https://twitter.com/phyrjoy"
+	github = "https://github.com/ronojoy"
+  google = "http://scholar.google.co.in/citations?user=DnFOEgMAAAAJ&hl=en"
+
