@@ -3,7 +3,7 @@
   <channel>
       <title>maxent</title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://localhost:1313/maxent/desc/index.xml/</link>
+    <link>http://ronojoy.github.io/maxent/desc/index.xml/</link>
     <language>en-us</language>
     <author>Ronojoy Adhikari</author>
     <copyright>2014 Ronojoy Adhikari</copyright>
