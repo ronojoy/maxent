@@ -1,0 +1,26 @@
++++
+date = "2015-02-01T03:43:05+05:30"
+draft = true
+title = "Is the Indus script a writing system ?"
+type = "post"
+
++++
+
+
+The Indus script is the name given to a system of signs, yet to be deciphered, used by the peoples of the Indus valley civilization (IVC). For the uninitiated reader, the IVC was contemporaneous to other major civilizations of the Bronze age like Egypt and Mesopotamia, but covered an area which was much larger. It was, in fact, the largest civilization of the Bronze Age. The civilization grew from the peoples who had first domesticated wheat around Mehrgarh in Baluchistan, and rice around Lahuradeva in Uttar Pradesh, flourished over a 2000 year period, but underwent a precipitous decline around 1900 BCE.
+
+Kavita Gangal and I did a spatio-temporal analysis of the growth and decay of the civilization. We compiled a database of Indus cites, grouped them by their size and the times during which they were inhabited, and plotted the result as a function of time, starting from the earliest times around 7000BCE and ending at 1000BCE. This animation is the key result.
+
+I have more to say about this in a later post, but for now, let us return to the Indus script.
+
+During the mature period of the IVC spanning 2500 BCE – 1900 BCE, the Indus script was widely used, with standardization across the entire geographical area of the civilization. The main purpose of the script was to facilitate trade and it must have had other uses too. Though it was discovered almost a century ago, the script remains undeciphered. The reasons for this include the brevity of the writing, the uncertainty over what language or languages the IVC peoples spoke, and the absence of any bilingual stellae like the Rosetta Stone. Given the variety of writing systems that are in use today and have been known in the past, what can we say about the nature of the writing system that is the Indus script ?
+
+A sensible way to go about looking for an answer is to cast the question as one of Bayesian inference. We frame a set of hypotheses, call them H1, H2 ..Hn and collect all the data, call that D, and then use Bayes theorem to compute the posterior probability of the hypotheses being true, in the light of the data D. These probabilities would, of course, change if new data was made available to augment D. If we assumed a logically exhaustive and mutually exclusive list of hypotheses, then P(H1 | D) + P(H2 | D) … P(Hn | D) = 1, so that, any increase in the probability of one of the hypothesis would automatically decrease the probability of the remaining hypotheses. The Bayesian procedure, being inductive, gives the probability of any of the hypotheses being true, but does not provide the deductive certainty that Boolean logic does. Bayesian inference is, then, a formalisation of the process of rational thought that we use in everyday life, as Rahul Siddharthnan and I described elsewhere.
+
+What sort of hypotheses should we make about the Indus script as a writing system ? Starting without bias, we could assume that it could be any one of the known writing systems or that it is an unknown writing system. If the number of known writing systems is N, say, we have N + 1 hypothesis to start with. Confronting these hypotheses with the data, which would be the sum total of our knowledge of all these writing systems and of the Indus script, we could obtain the probability that the Indus script belongs to one of the known writing systems or that it is an unknown writing system.
+
+This task, being fairly enormous, we could start with something simpler and focus not on the sum total of our knowledge of writing systems, but perhaps only a few features of known writing systems. One aspect amenable to quantitative study has to do with the frequencies with which signs appear in the writing system, that is their statistical properties. Then, a more limited form of inference would be to compute the statistical properties of the different writing systems, compare them to the computed statistical properties of the Indus script and then use Bayes theorem to obtain the probability that the Indus script is any one of them, or, is an unknown writing system.
+
+This was the reasoning behind a series of papers in Science, PNAS, and PLoS One that I co-authored with Iravatham Mahadevan, Rajesh Rao and and others on using statistical signatures to uncover that nature of the Indus script as a writing system. While we never explicitly formalised this Bayesian argument in our papers, it was always implicit in the way we understood, interpreted, and presented the results of our statistical analysis. Our conclusion was that, based on statistical signatures, there is more evidence that the Indus script functions like one of the known linguistic writing systems, than some unknown writing system. A detailed explanation of our method has now appeared as a comment in Computational Linguistics.
+
+The results we obtained can be bettered by using more data on known writing systems, sharper statistical measures, and formalising the Bayesian inferential procedure. Epigraphists, archaelogists and historians all argue, using data from their respective fields, in favour of the Indus script being a known writing system. Our work, based on statistical analysis, adds to this body of evidence.
