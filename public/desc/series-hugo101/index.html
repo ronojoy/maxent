@@ -12,9 +12,9 @@
   <title> series hugo101  &middot; maxent </title>
 
   
-  <link rel="stylesheet" href="http://ronojoy.github.io/maxent/css/poole.css">
-  <link rel="stylesheet" href="http://ronojoy.github.io/maxent/css/syntax.css">
-  <link rel="stylesheet" href="http://ronojoy.github.io/maxent/css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313/maxent/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313/maxent/css/syntax.css">
+  <link rel="stylesheet" href="http://localhost:1313/maxent/css/hyde.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   
@@ -44,7 +44,7 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1 class="brand"><a href="http://ronojoy.github.io/maxent">maxent</a></h1>
+      <h1 class="brand"><a href="http://localhost:1313/maxent">maxent</a></h1>
       <p class="lead">
        least biased thoughts 
       </p>
@@ -53,9 +53,9 @@
 
 
     <ul class="sidebar-nav">
-      <li><a href="http://ronojoy.github.io/maxent/blog">Posts</a></li>
+      <li><a href="http://localhost:1313/maxent/blog">Posts</a></li>
       
-        <li><a href="http://ronojoy.github.io/maxent/about/">About </a></li>
+        <li><a href="http://localhost:1313/maxent/about/">About </a></li>
       
       <br/>
       
@@ -101,5 +101,8 @@ Francia (aka spf13).</p>
 </div>
 </div>
 
-  </body>
+  <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
